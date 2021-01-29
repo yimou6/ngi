@@ -1,0 +1,15 @@
+{
+  "name": "ngi",
+  "version": "1.0.0",
+  "description": "ngi",
+  "main": "app.js",
+  "bin": {
+    "ngi": "app.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
