@@ -16,9 +16,7 @@ module.exports = function (fileUrl) {
     }
     // 保存nginx基础配置文件的路径
     try {
-        fs.writeFileSync(path.join(__dirname, 'config.txt'), JSON.stringify({
-            configFile: fileUrl[0]
-        }))
+        fs.writeFileSync(path.join(__dirname, 'config.txt'), fileUrl[0])
     } catch (e) {
         return console.log(e)
     }
